@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="669.0" prefWidth="521.0" style="-fx-background-color: #3f3e40;" stylesheets="@application.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Calculator_controller">
+   <children>
+      <TextField fx:id="tf" alignment="CENTER_RIGHT" editable="false" layoutX="17.0" layoutY="88.0" prefHeight="106.0" prefWidth="485.0" style="-fx-background-color: #746666;">
+         <font>
+            <Font size="43.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="tf2" alignment="CENTER_RIGHT" editable="false" layoutX="17.0" layoutY="10.0" prefHeight="90.0" prefWidth="485.0" style="-fx-background-color: #746666#3f3e40;">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </TextField>
+      <Button fx:id="two" layoutX="-216.0" layoutY="572.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="96.0" prefWidth="128.0" text="2">
+         <font>
+            <Font size="44.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#00000081" />
+                  <Stop color="#f2e9e994" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+      <Button fx:id="clear" layoutX="7.0" layoutY="195.0" mnemonicParsing="false" onAction="#clearText" prefHeight="96.0" prefWidth="115.0" style="-fx-background-color: ORANGE;" text="CL" textFill="#ffffff94">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Button>
+      <Button fx:id="minus" layoutX="137.0" layoutY="194.0" mnemonicParsing="false" onAction="#substract" prefHeight="96.0" prefWidth="115.0" style="-fx-background-color: #5f4491;" text="-" textFill="#ffffff94">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Button>
+      <Button fx:id="plus" layoutX="267.0" layoutY="194.0" mnemonicParsing="false" onAction="#add" prefHeight="96.0" prefWidth="115.0" style="-fx-background-color: #5f4491;" text="+" textFill="#ffffff94">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Button>
+      <Button fx:id="mult" layoutX="395.0" layoutY="194.0" mnemonicParsing="false" onAction="#multiply" prefHeight="96.0" prefWidth="115.0" style="-fx-background-color: #5f4491;" text="*" textAlignment="JUSTIFY" textFill="#ffffff94">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Button>
+      <Button fx:id="one" layoutX="7.0" layoutY="295.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="96.0" prefWidth="115.0" style="-fx-background-color: #2d2b30;" text="1" textFill="#ffffff94">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Button>
+      <Button fx:id="two" layoutX="137.0" layoutY="295.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="96.0" prefWidth="115.0" style="-fx-background-color: #2d2b30;" text="2" textFill="#ffffff94">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Button>
+      <Button fx:id="three" layoutX="267.0" layoutY="295.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="96.0" prefWidth="115.0" style="-fx-background-color: #2d2b30;" text="3" textFill="#ffffff94">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Button>
+      <Button fx:id="four" layoutX="7.0" layoutY="394.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="96.0" prefWidth="115.0" style="-fx-background-color: #2d2b30;" text="4" textFill="#ffffff94">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Button>
+      <Button fx:id="five" layoutX="137.0" layoutY="394.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="96.0" prefWidth="115.0" style="-fx-background-color: #2d2b30;" text="5" textFill="#ffffff94">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Button>
+      <Button fx:id="six" layoutX="267.0" layoutY="394.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="96.0" prefWidth="115.0" style="-fx-background-color: #2d2b30;" text="6" textFill="#ffffff94">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Button>
+      <Button fx:id="seven" layoutX="7.0" layoutY="494.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="96.0" prefWidth="115.0" style="-fx-background-color: #2d2b30;" text="7" textFill="#ffffff94">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Button>
+      <Button fx:id="eight" layoutX="137.0" layoutY="494.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="96.0" prefWidth="115.0" style="-fx-background-color: #2d2b30;" text="8" textFill="#ffffff94">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Button>
+      <Button fx:id="nine" layoutX="267.0" layoutY="494.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="96.0" prefWidth="115.0" style="-fx-background-color: #2d2b30;" text="9" textFill="#ffffff94">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Button>
+      <Button fx:id="division" layoutX="395.0" layoutY="295.0" mnemonicParsing="false" onAction="#divide" prefHeight="96.0" prefWidth="115.0" style="-fx-background-color: #5f4491;" text="/" textAlignment="JUSTIFY" textFill="#ffffff94">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Button>
+      <Button fx:id="equals" layoutX="395.0" layoutY="394.0" mnemonicParsing="false" onAction="#equals" prefHeight="96.0" prefWidth="115.0" style="-fx-background-color: #5f4491;" text="=" textAlignment="JUSTIFY" textFill="#ffffff94">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Button>
+      <Button fx:id="zero" layoutX="395.0" layoutY="494.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="96.0" prefWidth="115.0" style="-fx-background-color: #2d2b30;" text="0" textFill="#ffffff94">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Button>
+      <Button fx:id="back" layoutX="6.0" layoutY="594.0" mnemonicParsing="false" onAction="#back" prefHeight="78.0" prefWidth="503.0" style="-fx-background-color: #2d2b30;" text="Back" textFill="#ffffff94">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

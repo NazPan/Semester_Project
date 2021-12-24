@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="580.0" prefWidth="425.0" style="-fx-background-color: yellow;" stylesheets="@application.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Menu_controller">
+   <children>
+      <Label layoutX="99.0" layoutY="61.0" prefHeight="101.0" prefWidth="227.0" style="-fx-background-color: #5f4491;" text="  Main Menu" textFill="#f5f2f2">
+         <font>
+            <Font name="Elephant" size="33.0" />
+         </font>
+      </Label>
+      <Line endX="109.11318969726562" endY="-7.62939453125E-6" layoutX="209.0" layoutY="127.0" startX="-107.64151000976562" startY="-7.62939453125E-6" strokeWidth="3.0" />
+      <Button fx:id="button1" layoutX="58.0" layoutY="202.0" mnemonicParsing="false" onAction="#Calculator" prefHeight="62.0" prefWidth="126.0" style="-fx-background-color: #5f4491;" text="Basic Calculator" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Text fontSmoothingType="LCD" layoutX="22.0" layoutY="242.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1)">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <Text fill="#161515" fontSmoothingType="LCD" layoutX="239.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2)">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <Button fx:id="button2" layoutX="276.0" layoutY="202.0" mnemonicParsing="false" onAction="#Age" prefHeight="62.0" prefWidth="126.0" style="-fx-background-color: #5f4491;" text="Age Calculator" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Text fill="#1c1a1a" fontSmoothingType="LCD" layoutX="22.0" layoutY="345.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3)">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <Text fill="#161414" fontSmoothingType="LCD" layoutX="239.0" layoutY="345.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4)">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <Button fx:id="button4" layoutX="276.0" layoutY="306.0" mnemonicParsing="false" onAction="#Discount" prefHeight="62.0" prefWidth="126.0" style="-fx-background-color: #5f4491;" text="Discount" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="button3" layoutX="58.0" layoutY="306.0" mnemonicParsing="false" onAction="#Currency" prefHeight="62.0" prefWidth="126.0" style="-fx-background-color: #5f4491;" text="Currency" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="button5" layoutX="58.0" layoutY="399.0" mnemonicParsing="false" onAction="#Investment" prefHeight="62.0" prefWidth="126.0" style="-fx-background-color: #5f4491;" text="Investment" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="button6" layoutX="276.0" layoutY="399.0" mnemonicParsing="false" onAction="#BMI" prefHeight="62.0" prefWidth="126.0" style="-fx-background-color: #5f4491;" text="BMI Calculator" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Text fill="#0d0c0c" fontSmoothingType="LCD" layoutX="239.0" layoutY="432.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6)">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <Text fill="#0d0c0c" fontSmoothingType="LCD" layoutX="22.0" layoutY="432.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5)">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <Circle fill="#ff1f1f" layoutX="73.0" layoutY="100.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#ff1f1f" layoutX="354.0" layoutY="100.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#1f1b1b" layoutX="170.0" layoutY="46.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#252020" layoutX="225.0" layoutY="46.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+      <Line endX="1.5570640563964844" endY="16.424976348876953" layoutX="148.0" layoutY="7.0" startX="10.613639831542969" startY="30.00987434387207" />
+      <Line endX="17.999969482421875" endY="15.226421356201172" layoutX="152.0" layoutY="-1.0" startX="17.999969482421875" startY="31.999996185302734" />
+      <Line endX="27.641510009765625" endY="12.660381317138672" layoutX="167.0" layoutY="9.0" startX="16.339630126953125" startY="28.773601531982422" />
+      <Line endX="27.641510009765625" endY="12.660381317138672" layoutX="216.0" layoutY="10.0" startX="16.339630126953125" startY="28.773601531982422" />
+      <Line endX="17.999969482421875" endY="15.226421356201172" layoutX="207.0" layoutY="-2.0" startX="17.999969482421875" startY="31.999996185302734" />
+      <Line endX="1.5570640563964844" endY="16.424976348876953" layoutX="204.0" layoutY="4.0" startX="10.613639831542969" startY="30.00987434387207" />
+   </children>
+</AnchorPane>

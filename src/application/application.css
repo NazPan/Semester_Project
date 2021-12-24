@@ -1,0 +1,121 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.button
+{
+    -fx-background-color: #767575;
+    -fx-border-color: black;
+    
+}
+.button:hover{
+    
+    -fx-text-fill: white ;
+}
+
+
+.label
+{
+    -fx-text-fill: white ;
+}
+
+.textfield
+{
+    -fx-text-fill: white ;
+}
+#TableNo_Order
+{
+    -fx-text-fill: white ;
+}
+
+#Username
+{
+	-fx-text-fill: white ;
+}
+
+#CustomerName
+{
+	-fx-text-fill: white ;
+}
+#CustomerContact
+{
+	-fx-text-fill: white ;
+}
+
+#Quantity_Item1
+{
+    -fx-text-fill: white ;
+}
+
+#Quantity_Item2
+{
+    -fx-text-fill: white ;
+}
+
+#Quantity_Item3
+{
+    -fx-text-fill: white ;
+}
+
+#Quantity_Item4
+{
+    -fx-text-fill: white ;
+}
+
+#Quantity_Item5
+{
+    -fx-text-fill: white ;
+}
+
+#Quantity_Item6
+{
+    -fx-text-fill: white ;
+}
+
+#Quantity_Item7
+{
+    -fx-text-fill: white ;
+}
+
+#Quantity_Item8
+{
+    -fx-text-fill: white ;
+}
+#Date
+{
+	-fx-text-fill: white ;
+}
+#time
+{
+	-fx-text-fill: white ;
+}
+#TableNo
+{
+	-fx-text-fill: white ;
+}
+#Seats
+{
+	-fx-text-fill: white ;
+}
+#Discription
+{
+	-fx-text-fill: white ;
+}
+#Quantity
+{
+	-fx-text-fill: white;
+}
+#Equipment_id
+{
+	-fx-text-fill: white;
+}
+#Quant
+{
+	-fx-text-fill: white;
+}
+
+#TotalMembers
+{
+	-fx-text-fill: white;
+}
+#Password
+{
+	-fx-text-fill: white ;
+}

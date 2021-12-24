@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="660.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.FeedBackController">
+   <children>
+      <ImageView fitHeight="550.0" fitWidth="793.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../por.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="489.0" layoutX="37.0" layoutY="34.0" stroke="BLACK" strokeType="INSIDE" style="-fx-opacity: 0.8;" width="593.0" />
+      <Label alignment="CENTER" layoutX="192.0" layoutY="170.0" prefHeight="25.0" prefWidth="132.0" text="Food Quality">
+         <font>
+            <Font name="Tw Cen MT" size="21.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="196.0" layoutY="55.0" prefHeight="60.0" prefWidth="268.0" text="Feedback" textAlignment="CENTER">
+         <font>
+            <Font name="Tw Cen MT" size="51.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="196.0" layoutY="242.0" prefHeight="25.0" prefWidth="124.0" text="Environment">
+         <font>
+            <Font name="Tw Cen MT" size="21.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="168.0" layoutY="307.0" prefHeight="26.0" prefWidth="180.0" text="Customer Service">
+         <font>
+            <Font name="Tw Cen MT" size="21.0" />
+         </font>
+      </Label>
+      <Button fx:id="FeedbackEnter" ellipsisString="" layoutX="223.0" layoutY="379.0" mnemonicParsing="false" onAction="#FeedBackSubmittedMain" prefHeight="48.0" prefWidth="221.0" style="-fx-background-color: lighyellow;" text=" Submit Feedback " textFill="WHITE" underline="true">
+         <font>
+            <Font name="Tw Cen MT" size="21.0" />
+         </font>
+      </Button>
+      <CheckBox fx:id="QualitySat" layoutX="355.0" layoutY="156.0" mnemonicParsing="false" text="Satisfied" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="QualityDis" layoutX="355.0" layoutY="185.0" mnemonicParsing="false" text="Dissatisfied" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="EnvironmentSat" layoutX="355.0" layoutY="226.0" mnemonicParsing="false" text="Satisfied" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="EnvironmentDis" layoutX="355.0" layoutY="256.0" mnemonicParsing="false" text="Dissatisfied" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="ServiceSat" layoutX="355.0" layoutY="296.0" mnemonicParsing="false" text="Satisfied" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="ServiceDis" layoutX="355.0" layoutY="326.0" mnemonicParsing="false" text="Dissatisfied" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></CheckBox>
+      <Button fx:id="MenuBack" ellipsisString="" layoutX="-24.0" layoutY="-22.0" mnemonicParsing="false" onAction="#MenuBackMain" prefHeight="58.0" prefWidth="104.0" style="-fx-background-color: lighyellow; -fx-border-color: none;" text="←">
+         <font>
+            <Font name="Monotype Corsiva" size="42.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

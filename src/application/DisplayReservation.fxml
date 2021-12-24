@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="660.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ReservationController">
+   <children>
+      <ImageView fitHeight="550.0" fitWidth="745.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../por.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="489.0" layoutX="34.0" layoutY="33.0" stroke="BLACK" strokeType="INSIDE" style="-fx-opacity: 0.8;" width="593.0" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="147.0" layoutY="49.0" prefHeight="66.0" prefWidth="393.0" text="Reservation Details" textAlignment="CENTER">
+         <font>
+            <Font name="Tw Cen MT" size="51.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="179.0" layoutY="203.0" prefHeight="25.0" prefWidth="110.0" text="Date">
+         <font>
+            <Font name="Tw Cen MT" size="21.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="187.0" layoutY="230.0" prefHeight="25.0" prefWidth="94.0" text="Time">
+         <font>
+            <Font name="Tw Cen MT" size="21.0" />
+         </font>
+      </Label>
+      <TextField fx:id="time" alignment="CENTER" layoutX="302.0" layoutY="227.0" prefHeight="31.0" prefWidth="155.0" style="-fx-background-color: lighyellow;">
+         <font>
+            <Font name="Tw Cen MT" size="16.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect></TextField>
+      <TextField fx:id="Date" alignment="CENTER" layoutX="302.0" layoutY="199.0" prefHeight="31.0" prefWidth="155.0" style="-fx-background-color: lighyellow;">
+         <font>
+            <Font name="Tw Cen MT Italic" size="18.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect></TextField>
+      <Label alignment="CENTER" layoutX="191.0" layoutY="259.0" prefHeight="25.0" prefWidth="94.0" text="People">
+         <font>
+            <Font name="Tw Cen MT" size="21.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="193.0" layoutY="292.0" prefHeight="25.0" prefWidth="94.0" text="Table No.">
+         <font>
+            <Font name="Tw Cen MT" size="21.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="191.0" layoutY="322.0" prefHeight="25.0" prefWidth="94.0" text="Seats">
+         <font>
+            <Font name="Tw Cen MT" size="21.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="191.0" layoutY="350.0" prefHeight="25.0" prefWidth="94.0" text="Discription">
+         <font>
+            <Font name="Tw Cen MT" size="21.0" />
+         </font>
+      </Label>
+      <TextField fx:id="TotalMembers" alignment="CENTER" layoutX="302.0" layoutY="255.0" prefHeight="31.0" prefWidth="155.0" style="-fx-background-color: lighyellow;">
+         <font>
+            <Font name="Tw Cen MT Italic" size="18.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </TextField>
+      <TextField fx:id="TableNo" alignment="CENTER" layoutX="301.0" layoutY="288.0" prefHeight="31.0" prefWidth="155.0" style="-fx-background-color: lighyellow;">
+         <font>
+            <Font name="Tw Cen MT Italic" size="18.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </TextField>
+      <TextField fx:id="Seats" alignment="CENTER" layoutX="302.0" layoutY="317.0" prefHeight="31.0" prefWidth="155.0" style="-fx-background-color: lighyellow;">
+         <font>
+            <Font name="Tw Cen MT Italic" size="18.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </TextField>
+      <TextField fx:id="Discription" alignment="CENTER" layoutX="302.0" layoutY="346.0" prefHeight="31.0" prefWidth="155.0" style="-fx-background-color: lighyellow;">
+         <font>
+            <Font name="Tw Cen MT Italic" size="18.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </TextField>
+      <Label alignment="CENTER" layoutX="217.0" layoutY="152.0" prefHeight="25.0" prefWidth="226.0" text="Enter Reservation Details.">
+         <font>
+            <Font name="Tw Cen MT" size="21.0" />
+         </font>
+      </Label>
+      <Button fx:id="DisplayDetails" layoutX="234.0" layoutY="402.0" mnemonicParsing="false" onAction="#Display" prefHeight="25.0" prefWidth="193.0" style="-fx-background-color: lighty lighyellowellow;" text="Display Details" textFill="WHITE" underline="true">
+         <font>
+            <Font name="Tw Cen MT" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="MenuBack" ellipsisString="" layoutX="-26.0" layoutY="-27.0" mnemonicParsing="false" onAction="#MenuBackMain" prefHeight="58.0" prefWidth="104.0" style="-fx-background-color: lighyellow; -fx-border-color: none;" text="←">
+         <font>
+            <Font name="Monotype Corsiva" size="42.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

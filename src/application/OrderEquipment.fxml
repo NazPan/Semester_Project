@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="660.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MaintenanceController">
+   <children>
+      <ImageView fitHeight="550.0" fitWidth="730.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../por.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="489.0" layoutX="30.0" layoutY="32.0" stroke="BLACK" strokeType="INSIDE" style="-fx-opacity: 0.8;" width="593.0" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="129.0" layoutY="32.0" prefHeight="66.0" prefWidth="402.0" text="Order Equipment" textAlignment="CENTER">
+         <font>
+            <Font name="Tw Cen MT" size="51.0" />
+         </font>
+      </Label>
+      <Label layoutX="178.0" layoutY="195.0" prefHeight="32.0" prefWidth="160.0" text="Equipment ID">
+         <font>
+            <Font name="Tw Cen MT" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="193.0" layoutY="238.0" prefHeight="32.0" prefWidth="131.0" text="Quantity ">
+         <font>
+            <Font name="Tw Cen MT" size="21.0" />
+         </font>
+      </Label>
+      <TextField fx:id="Equipment_id" alignment="CENTER" layoutX="308.0" layoutY="198.0" prefHeight="26.0" prefWidth="158.0" style="-fx-background-color: transparent;">
+         <effect>
+            <Glow />
+         </effect>
+         <font>
+            <Font name="Tw Cen MT" size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="Quantity" alignment="CENTER" layoutX="311.0" layoutY="237.0" prefHeight="26.0" prefWidth="158.0" style="-fx-background-color: transparent;">
+         <effect>
+            <Glow />
+         </effect>
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Button fx:id="PlaceOrder" ellipsisString="" layoutX="249.0" layoutY="337.0" mnemonicParsing="false" onAction="#PlaceOrder" prefHeight="48.0" prefWidth="131.0" style="-fx-background-color: lighyellow;" text="Place Order" textFill="WHITE" underline="true">
+         <font>
+            <Font name="Tw Cen MT" size="20.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutX="211.0" layoutY="141.0" prefHeight="26.0" prefWidth="202.0" text="Enter Equipment Details.">
+         <font>
+            <Font name="Tw Cen MT" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="MenuBack" ellipsisString="" layoutX="-30.0" layoutY="-27.0" mnemonicParsing="false" onAction="#MenuBackMain" prefHeight="58.0" prefWidth="104.0" style="-fx-background-color: lighyellow; -fx-border-color: none;" text="←">
+         <font>
+            <Font name="Monotype Corsiva" size="42.0" />
+         </font>
+      </Button>
+      <Label fx:id="Incorrect_ID" alignment="CENTER" layoutX="315.0" layoutY="279.0" prefHeight="32.0" prefWidth="131.0" textFill="WHITE">
+         <font>
+            <Font name="Tw Cen MT" size="21.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
